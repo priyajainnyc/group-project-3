@@ -5,7 +5,7 @@ Group-Project-3 for data vidualization challenge of modules 16 and 17 of Datavis
 Max Young, Meardreed Vilmeus, Nancy Santiago, Priya Jain, Soo Bin Im
 
 # Project Title
-The Great Resignation: Labor Statistics & Employment findings for Industries & Workers Most Affected and Associated Causes
+The Great Resignation: Labor Statistics & Employment Findings for Industries & Workers Most Affected and Associated Causes
 
 ## Project Description
   The Bureau of Labor Statistics, or BLS for short, is responsible for providing labor statistics and employment findings based on financial, social, legal and economic events. The data is used to determine changes to the labor market, such as quit rates, hire rates and job openings by factors such as region/state, sector/industry, gender and income status. 
