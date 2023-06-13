@@ -5,35 +5,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Annual Quit Rates During The Pandemic</title>
+  <title>The Great Resignation</title>
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 </head>
 
 <body>
-  <h2>Annual Quit Rates</h2>
-  <p>Numbers on hover reflect the quit rates in each year and industry.</p>
+  <h2>The Great Resignation</h2>
+  <p>Quit, Hire and Job Opening Rate 2001 - 2023</p>
+  <p>Change Drop Down To Update Plot</p>
   <select id="selDataset">
-      <option value="Construction">Construction</option>
-      <option value="RetailTrade">RetailTrade</option>
-      <option value="Transportation_Warehousing_Utilities">Transportation_Warehousing_Utilities</option>
-      <option value="Arts_Entertainment_Recreation">Arts_Entertainment_Recreation</option>
-      <option value="Accommodation_FoodServices">Accommodation_Food services</option>
+      <option value="Hire Rate">Hire Rate</option>
+      <option value="Quit Rate">Quit Rate</option>
+      <option value="Job Openings">Job Openings</option>
   </select>
+  <div id="plot"></div>
 
-  <div id="bubble"></div>
+    <h2>Annual Quit Rates for Top5 Industries During Covid-19</h2>
+    <p>Numbers on hover reflect the quit rates in each year.</p>
+    <p>*Top 5 industries are based on 2022 rates.</p>
+    <select id="selDataset">
+        <option value="Accommodation and food services">Accommodation and food services</option>
+        <option value="Arts, entertainment, and recreation">Arts, entertainment, and recreation</option>
+        <option value="Construction">Construction</option>
+        <option value="Retail trade">Retail trade</option>
+        <option value="Transportation, warehousing, and utilities">Transportation, warehousing, and utilities</option>
+    </select>
+    <div id="plot1"></div>
+
+</div>
+
+  <body>
+    <h2>Total Quits by Industry During and After Recession</h2>
+    <p>Numbers on hover reflect the total quits in each year and industry</p>
+    <select id="selDataset">
+        <option value="Manufacturing">Manufacturing</option>
+        <option value="Transportation, warehousing, and utilities">Transportation, warehousing, and utilities</option>
+        <option value="Financial Activities">Financial Activities</option>
+        <option value="Education and Health services">Education and Health services</option>
+        <option value="Government">Government</option>
+    </select>
+  <div id="plot2"></div>
 
   <p>Data Sources:<br />
       <ul>
-          <li>
-              <a href="https://www.bls.gov/news.release/jolts.t22.htm">Annual average quits rates by industry and region, not seasonally adjusted</a>
-          </li>
-  
-  </p>
+            <li>
+              <a href="https://www.bls.gov/jlt/latest-numbers.htm">JOLTS Latest Numbers</a><br />
+              <a href="https://www.bls.gov/news.release/jolts.t22.htm">Annual Average Quits Rates by Industry and Region, not Seasonally Adjusted</a><br />
+              <a href="https://data.bls.gov/PDQWeb/jt">Job Openings and Labor Turnover Survey</a><br />     
+            </li>
 
-  <script src="data.js"></script>
-  <script src="./static/js/app.js"></script>
+  </p>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/plot_line.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/plots.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/max_plots.js') }}"></script>
 </body>
 </html>
 
