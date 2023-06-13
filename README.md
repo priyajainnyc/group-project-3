@@ -43,6 +43,6 @@ Make sure you have installed all of the following prerequisites on your developm
 - Visit [localhost: 5000](http://localhost:5000) in your browser
 
 ## Data Sources
-- [Bureau of Labor Statistic, Job Openings and Labor Turnover (JOLTS): Latest Numbers](https://www.bls.gov/jlt/latest-numbers.htm)
-- [Bureau of Labor Statistic, Annual Average Quits Rates by Industry and Region, not Seasonally Adjuste](https://www.bls.gov/news.release/jolts.t22.htm)
+- [Bureau of Labor Statistics, Job Openings and Labor Turnover (JOLTS): Latest Numbers](https://www.bls.gov/jlt/latest-numbers.htm)
+- [Bureau of Labor Statistics, Annual Average Quits Rates by Industry and Region, not Seasonally Adjuste](https://www.bls.gov/news.release/jolts.t22.htm)
 - [Bureau of Labor Statictics, Job Openings and Labor Turnover (JOLTS): Survey](https://data.bls.gov/PDQWeb/jt)  
