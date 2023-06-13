@@ -1,6 +1,7 @@
 //Grab data
 let industry_data = "/api/v1.0/quitrates_covid19_byindustry";
-​
+
+///
 function init() {
   d3.json(industry_data).then(function(data) {
     console.log(data);
@@ -15,7 +16,7 @@ function init() {
   }
 // Function called by DOM changes
 function refreshPlot() {
-  let dropdownMenu = d3.select("#selDataset");
+  let dropdownMenu = d3.select("#selDataset1");
   // Assign the value of the dropdown menu option to a variable
   let filter = dropdownMenu.property("value");
   // Call function to update the chart
@@ -30,5 +31,5 @@ function refreshPlot() {
   });
 }
 // On change to the DOM, call getData()
-d3.selectAll("#selDataset").on("change", refreshPlot);
+d3.selectAll("#selDataset1").on("change", refreshPlot);
 init();
