@@ -73,14 +73,14 @@ crsr.execute(create_statement_top5industryannualquitrates)
 # create sectorquits table with a primary key
 create_statement_sectorquits = """CREATE TABLE sectorquits (
 Industry text PRIMARY KEY,
-'column_2007' text,
-'column_2008' text,
-'column_2009' text,
-'column_2010' text,
-'column_2011' text,
-'column_2012' text,
-'column_2013' text,
-'column_2014' text
+'column_2007' real,
+'column_2008' real,
+'column_2009' real,
+'column_2010' real,
+'column_2011' real,
+'column_2012' real,
+'column_2013' real,
+'column_2014' real
 );"""
 crsr.execute(create_statement_sectorquits)
 

@@ -17,6 +17,7 @@ function refreshPlot() {
   let dropdownMenu = d3.select("#selDataset2");
   // Assign the value of the dropdown menu option to a variable
   let filter = dropdownMenu.property("value");
+  console.log(filter)
   // Call function to update the chart
   d3.json(industry_data2).then(function(data) {
     let datasingle = data[filter];
