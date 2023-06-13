@@ -33,8 +33,8 @@ This interative dashboard explores the ["Bureau of Labor Statictics" dataset](ht
 **Prerequisites**
 
 Make sure you have installed all of the following prerequisites on your development machine:
-- Your favoriate code editor (e.g. VScode, etc.)
-- Your favoriate browser (e.g. Google Chrome, Firefox, etc.)
+- Your favorite code editor (e.g. VScode, etc.)
+- Your favorite browser (e.g. Google Chrome, Firefox, etc.)
 
 **Installation**
 - Clone this repo and save it in your local directory
