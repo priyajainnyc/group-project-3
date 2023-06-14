@@ -12,7 +12,7 @@ from flask import Flask, jsonify, render_template
 #################################################
 # Database Setup
 #################################################
-engine = create_engine(r"sqlite:///Data\great_resignation.db")
+engine = create_engine(r"sqlite:///Data/great_resignation.db")
 
 # reflect an existing database into a new model
 Base = automap_base()
@@ -166,4 +166,4 @@ def sectorrates():
     return categories_and_values
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
