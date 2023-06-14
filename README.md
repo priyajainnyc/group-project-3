@@ -43,6 +43,11 @@ Make sure you have installed all of the following prerequisites on your developm
 - Visit [localhost: 5000](http://localhost:5000) in your browser
 - Azure Web Services Link `https://flask-great-resignation.azurewebsites.net`
 
+## Flask APIs 
+ - Quit, Hire and Job Opening Rates From 2001 - 2023: Line Chart `/api/v1.0/ratesdata`
+ - Annual Quit Rates for Top 5 Industries During Covid-19: Bar Chart `/api/v1.0/quitrates_covid19_byindustry`
+ - Total Quit Rates by Industry During and After Recession: Bar Chart `/api/v1.0/sectorquits`
+
 ## Data Sources
 - [Bureau of Labor Statistics, Job Openings and Labor Turnover (JOLTS): Latest Numbers](https://www.bls.gov/jlt/latest-numbers.htm)
 - [Bureau of Labor Statistics, Annual Average Quits Rates by Industry and Region, not Seasonally Adjuste](https://www.bls.gov/news.release/jolts.t22.htm)
