@@ -41,7 +41,7 @@ Make sure you have installed all of the following prerequisites on your developm
 - git clone `https://github.com/priyajainnyc/group-project-3`
 - Open the repo in a code editor to see the codes
 - Visit [localhost: 5000](http://localhost:5000) in your browser
-- Azure Web Services Link 'https://flask-great-resignation.azurewebsites.net/'
+- Azure Web Services Link `https://flask-great-resignation.azurewebsites.net`
 
 ## Data Sources
 - [Bureau of Labor Statistics, Job Openings and Labor Turnover (JOLTS): Latest Numbers](https://www.bls.gov/jlt/latest-numbers.htm)
